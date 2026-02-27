@@ -1,0 +1,87 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Donate • JayAwesome Foundation</title>
+<link rel="stylesheet" href="assets/css/styles.css"/></head><body>
+<header><div class="container"><div class="navbar">
+<a class="brand" href="index.html">JayAwesome Foundation</a>
+<nav class="navlinks">
+<a href="about.html">About</a><a href="programs.html">Programs</a><a href="projects.html">Projects</a>
+<a href="get-help.html">Get Help</a><a href="donate.html">Donate</a><a href="transparency.html">Transparency</a>
+<a href="volunteer.html">Volunteer</a><a href="contact.html">Contact</a><a href="blog.html">Blog</a>
+</nav><div class="nav-actions">
+<button class="btn mobile-toggle" data-mobile-toggle aria-expanded="false">Menu</button>
+<a class="btn" href="https://wa.me/2347010638511" target="_blank" rel="noreferrer">WhatsApp</a>
+<a class="btn btn-primary" href="donate.html">Donate</a></div></div>
+<div class="mobile-panel" data-mobile-panel>
+<a href="about.html">About</a><a href="programs.html">Programs</a><a href="projects.html">Projects</a>
+<a href="get-help.html">Get Help</a><a href="donate.html">Donate</a><a href="transparency.html">Transparency</a>
+<a href="volunteer.html">Volunteer</a><a href="contact.html">Contact</a><a href="blog.html">Blog</a>
+</div></div></header>
+
+<section class="section"><div class="container">
+<div class="badge">Donate</div>
+<h1 class="h1">Every donation saves a life</h1>
+<p class="p">Choose bank transfer or card payment. For bank transfers, send proof via WhatsApp for confirmation and receipt.</p>
+
+<div class="grid grid-2" style="margin-top:18px">
+<div class="card">
+<h2 class="h2">Donate by Bank Transfer</h2>
+<p class="p">
+<b>Bank:</b> GTBank<br/>
+<b>Account Name:</b> Babatunde Olotu<br/>
+<b>Account Number:</b> 0498320809
+</p>
+<div class="btnrow">
+<a class="btn btn-dark" href="https://wa.me/2347010638511" target="_blank" rel="noreferrer">Send proof on WhatsApp</a>
+<a class="btn" href="transparency.html">See Transparency</a>
+</div>
+<p class="small" style="margin-top:10px">Tip: Add narration like “JAF Donation – Screening” or “JAF Donation – Treatment”.</p>
+</div>
+
+<div class="card">
+<h2 class="h2">Donate by Card (Paystack)</h2>
+<p class="p">Enter amount and email. After payment, keep your reference.</p>
+
+<div class="grid" style="gap:10px; margin-top:12px">
+  <input id="donateAmount" class="btn" style="justify-content:flex-start; width:100%" type="number" min="100" placeholder="Amount (NGN) e.g. 5000" />
+  <input id="donorEmail" class="btn" style="justify-content:flex-start; width:100%" type="email" placeholder="Email for receipt" />
+  <button class="btn btn-primary" data-paystack-btn style="width:100%">Pay with Card</button>
+  <div class="small">Payment reference: <b data-paystack-ref>—</b></div>
+</div>
+
+<!-- Put your Paystack public key here -->
+<div data-paystack-key="YOUR_PAYSTACK_PUBLIC_KEY_HERE" style="display:none"></div>
+
+<p class="small" style="margin-top:10px">If you prefer Flutterwave, tell me and I’ll swap the script.</p>
+</div>
+
+<div class="card">
+<h2 class="h2">Need a Receipt?</h2>
+<p class="p">Send payment proof to WhatsApp and we’ll confirm and issue a receipt.</p>
+<div class="btnrow">
+<a class="btn btn-dark" href="https://wa.me/2347010638511" target="_blank" rel="noreferrer">WhatsApp 07010638511</a>
+<a class="btn" href="mailto:jayawesomest@gmail.com">Email us</a>
+</div>
+</div>
+
+<div class="card">
+<h2 class="h2">Corporate Partnership</h2>
+<p class="p">CSR partnerships for screening outreaches, awareness campaigns, and treatment support are welcome.</p>
+<div class="btnrow"><a class="btn" href="contact.html">Contact us</a></div>
+</div>
+
+</div></div></section>
+
+<footer class="footer"><div class="container"><div class="cols">
+<div><div style="font-weight:900">JayAwesome Foundation</div><p class="p">Early Detection. Real Support. Saving Lives.</p></div>
+<div><div style="font-weight:900;margin-bottom:8px">Quick Links</div>
+<div class="grid" style="gap:10px"><a href="get-help.html">Get Help</a><a href="donate.html">Donate</a><a href="transparency.html">Transparency</a><a href="volunteer.html">Volunteer</a></div></div>
+<div><div style="font-weight:900;margin-bottom:8px">Contact</div>
+<div class="small">WhatsApp: 07010638511</div><div class="small">Email: jayawesomest@gmail.com</div>
+<div class="small" style="margin-top:10px">© <span data-year></span> JayAwesome Foundation.</div></div>
+</div></div></footer>
+
+<script src="assets/js/main.js"></script>
+<script src="https://js.paystack.co/v1/inline.js"></script>
+<script src="assets/js/paystack.js"></script>
+</body></html>

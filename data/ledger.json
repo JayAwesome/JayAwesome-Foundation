@@ -1,0 +1,20 @@
+{
+  "currency": "NGN",
+  "lastUpdated": "2026-02-27",
+  "summary": {
+    "donationsTotal": 6250000,
+    "expensesTreatment": 2100000,
+    "expensesOutreach": 980000,
+    "expensesAdmin": 320000
+  },
+  "recentDonations": [
+    { "date": "2026-02-20", "name": "Anonymous", "amount": 250000, "purpose": "Treatment Support" },
+    { "date": "2026-02-15", "name": "Anonymous", "amount": 100000, "purpose": "Screening Outreach" },
+    { "date": "2026-02-10", "name": "Anonymous", "amount": 500000, "purpose": "General Support" }
+  ],
+  "recentExpenses": [
+    { "date": "2026-02-22", "category": "Treatment", "amount": 750000, "note": "Medication support (multiple cases)" },
+    { "date": "2026-02-18", "category": "Outreach", "amount": 240000, "note": "Screening logistics & consumables" },
+    { "date": "2026-02-12", "category": "Admin", "amount": 120000, "note": "Operations & communications" }
+  ]
+}
